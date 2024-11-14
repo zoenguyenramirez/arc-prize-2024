@@ -1,0 +1,12 @@
+.ipynb_checkpoints
+runs
+old-runs
+__pycache__
+intermediate_data
+special_checkpoints
+i_am_sleeping.sh
+.TASK_PGID
+cloud_runs
+submission
+attention_analysis
+*.log

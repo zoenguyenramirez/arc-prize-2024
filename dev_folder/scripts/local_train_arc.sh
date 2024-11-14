@@ -1,0 +1,1 @@
+python -m src.train --epochs 100 --max-seq-length 2048 --samples-per-epoch 16 --learning-rate 4e-4 --heads 6 --batch-size 4 --schedular cosine --embed-size 780 --minimize-checkpoints --dataset-file intermediate_data/prepared_dataset_using_arc.pth  --accumulation-steps 4

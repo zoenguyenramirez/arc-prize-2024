@@ -1,0 +1,8 @@
+arckit==0.0.4
+colorlog==6.8.2
+# matplotlib==3.9.2
+# numpy==1.26.3
+# pandas==2.2.3
+psutil==6.0.0
+# tensorboard==2.14.1
+jsonlines
