@@ -28,10 +28,10 @@ train_model() {
             --heads 4 \
             --base-lr 1e-8 \
             --num-layers 18 \
-            --batch-size 24 \
+            --batch-size 2 \
             --schedular cosine \
             --embed-size 888 \
-            --accumulation-steps 1 \
+            --accumulation-steps 12 \
             --progressive-head 1 \
             --mask-hack False \
             --load-checkpoint "$latest_pth"
