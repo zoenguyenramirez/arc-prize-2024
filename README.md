@@ -30,6 +30,7 @@ The repository is organized into two main folders:
 #### Training the Model
 ```bash
 cd dev_folder
+bash scripts/download_intermediate_data_directly.sh
 bash scripts/train_using_barc_data.sh
 ```
 
